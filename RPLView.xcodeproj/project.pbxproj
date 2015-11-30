@@ -14,6 +14,8 @@
 		5D08DEF51C0C1D00005BD701 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D08DEF11C0C1D00005BD701 /* LaunchScreen.storyboard */; };
 		5D08DEF61C0C1D01005BD701 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D08DEF31C0C1D00005BD701 /* Main.storyboard */; };
 		5D08DEF81C0C1D08005BD701 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D08DEF71C0C1D08005BD701 /* main.m */; };
+		5D08DF031C0C1E9C005BD701 /* RPLControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D08DF001C0C1E9C005BD701 /* RPLControl.m */; };
+		5D08DF041C0C1E9C005BD701 /* RPLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D08DF021C0C1E9C005BD701 /* RPLView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,10 @@
 		5D08DEF21C0C1D00005BD701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D08DEF41C0C1D00005BD701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D08DEF71C0C1D08005BD701 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D08DEFF1C0C1E9C005BD701 /* RPLControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPLControl.h; sourceTree = "<group>"; };
+		5D08DF001C0C1E9C005BD701 /* RPLControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPLControl.m; sourceTree = "<group>"; };
+		5D08DF011C0C1E9C005BD701 /* RPLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPLView.h; sourceTree = "<group>"; };
+		5D08DF021C0C1E9C005BD701 /* RPLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPLView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,10 @@
 		5D08DECE1C0C1C14005BD701 /* RPLView */ = {
 			isa = PBXGroup;
 			children = (
+				5D08DEFF1C0C1E9C005BD701 /* RPLControl.h */,
+				5D08DF001C0C1E9C005BD701 /* RPLControl.m */,
+				5D08DF011C0C1E9C005BD701 /* RPLView.h */,
+				5D08DF021C0C1E9C005BD701 /* RPLView.m */,
 			);
 			path = RPLView;
 			sourceTree = "<group>";
@@ -162,6 +172,8 @@
 			files = (
 				5D08DEEB1C0C1CD1005BD701 /* AppDelegate.m in Sources */,
 				5D08DEF81C0C1D08005BD701 /* main.m in Sources */,
+				5D08DF031C0C1E9C005BD701 /* RPLControl.m in Sources */,
+				5D08DF041C0C1E9C005BD701 /* RPLView.m in Sources */,
 				5D08DEEC1C0C1CD1005BD701 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
